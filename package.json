@@ -1,0 +1,19 @@
+{
+  "name": "appian-nav-em-education-mgmt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getusers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corbinpage/appian-NAV-EM-education-mgmt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corbinpage/appian-NAV-EM-education-mgmt/issues"
+  },
+  "homepage": "https://github.com/corbinpage/appian-NAV-EM-education-mgmt#readme"
+}

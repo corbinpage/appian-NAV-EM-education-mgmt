@@ -1,0 +1,111 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="https://navlabsdev.appiancloud.com/suite/types/" targetNamespace="https://navlabsdev.appiancloud.com/suite/types/">
+  <xsd:complexType name="NAV_EM_student">
+    <xsd:annotation>
+      <xsd:appinfo source="appian.jpa">
+        @Table(name="nav_em_student")
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="id" nillable="true" type="xsd:int">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Id @GeneratedValue @Column(name="id")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="gender" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="gender")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="title" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="title")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="firstName" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="first_name")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="lastName" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="last_name")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="address1" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="address_1")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="city" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="city")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="state" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="state")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="postal" nillable="true" type="xsd:int">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="postal")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="email" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="email")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="username" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="username")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="password" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="password")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="userId" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="user_id")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="dob" nillable="true" type="xsd:date">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="dob")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="homePhone" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="home_phone")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="cell" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="cell")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="ssn" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="ssn")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="picLarge" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="pic_large")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="picMedium" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="pic_medium")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="picSmall" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="pic_small")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>
